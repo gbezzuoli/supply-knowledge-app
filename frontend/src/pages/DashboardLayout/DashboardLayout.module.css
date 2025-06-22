@@ -1,0 +1,29 @@
+/* Arquivo: src/pages/DashboardLayout/DashboardLayout.module.css */
+.root {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+.container {
+  display: flex;
+  flex-grow: 1;
+  height: calc(100vh - 64px); /* Altura da tela menos o Header */
+}
+.content {
+  flex-grow: 1;
+  padding: 0; /* Removemos o padding para o chat ocupar todo o espaço */
+  overflow-y: auto;
+  background-color: #36393f; /* <-- COR UNIFICADA */
+}
+
+/* Media query para telas menores no dashboard */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    height: auto;
+  }
+  .content {
+    padding: 1rem;
+  }
+  /* Você pode adicionar estilos para esconder a sidebar ou transformá-la em um menu 'hambúrguer' aqui no futuro */
+}
