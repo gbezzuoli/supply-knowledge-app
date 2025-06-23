@@ -1,0 +1,5 @@
+.appBar {
+  background-color: #2f3136 !important; /* Um tom um pouco diferente para o header, como no Discord */
+  box-shadow: none !important;
+  border-bottom: 1px solid #202225; /* Borda sutil */
+}

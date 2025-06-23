@@ -1,0 +1,8 @@
+# Dependências Python para o projeto Supply Knowledge App
+google-genai
+python-dotenv
+Flask
+Flask-CORS
+playwright
+chromadb
+

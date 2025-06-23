@@ -1,0 +1,12 @@
+html, body, #root {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden; /* Impede barras de rolagem indesejadas no corpo da página */
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #36393f; /* Define a cor de fundo padrão para o tema escuro */
+}

@@ -1,0 +1,28 @@
+/* Arquivo: src/components/Sidebar/Sidebar.module.css */
+.sidebar {
+  width: 240px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: #2f3136; /* Mesmo tom do header */
+}
+/* ... outros estilos ... */
+
+.logoContainer {
+  background-color: #fdb913; /* Amarelo/Dourado do logo */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  height: 63px; /* Altura aproximada do header */
+  box-sizing: border-box;
+}
+
+.logo {
+  height: 40px;
+  width: auto;
+}
+
+.menuItem {
+  padding-left: 24px !important;
+}

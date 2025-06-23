@@ -1,0 +1,17 @@
+[
+  {
+    "id": "missao_001",
+    "objetivo": "Navegar até a tela de cadastro de Clientes",
+    "status": "concluida"
+  },
+  {
+    "id": "missao_002",
+    "objetivo": "Encontrar o relatório de vendas por período",
+    "status": "pendente"
+  },
+  {
+    "id": "missao_003",
+    "objetivo": "Acessar a tela de apontamento de produção",
+    "status": "pendente"
+  }
+]

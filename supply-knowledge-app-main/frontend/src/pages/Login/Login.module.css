@@ -1,0 +1,102 @@
+/* Arquivo: src/pages/Login/Login.module.css */
+
+.pageContainer {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.leftPanel {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f4f6f8;
+  position: relative;
+  padding: 2rem;
+}
+
+.rightPanel {
+  flex: 0; /* O painel direito é um pouco maior */
+  background-color: #333333;
+}
+
+.formWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 1; /* Garante que o formulário fique na frente da onda */
+}
+
+.logoArea {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.logo {
+  width: 120px;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+.title {
+  color: #666;
+  font-weight: 400 !important;
+}
+
+.loginCard {
+  width: 100%;
+  max-width: 420px;
+  background-color: #ffffff !important;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08) !important;
+  border-radius: 8px !important;
+  border: 1px solid #e0e0e0;
+}
+
+.cardActions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 16px 16px 16px !important;
+}
+
+.forgotPassword {
+  font-size: 0.8rem;
+  color: #777;
+  text-decoration: none;
+}
+
+.loginButton {
+  background-color: #f0f0f0 !important;
+  color: #444 !important;
+  box-shadow: none !important;
+  font-weight: 600 !important;
+}
+
+/* Efeito de onda decorativo */
+.wave {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 25%;
+  background: #ffb74d; /* Laranja/Amarelo */
+  clip-path: polygon(0% 75%, 5% 77%, 10% 80%, 15% 82%, 20% 85%, 25% 87%, 30% 88%, 35% 89%, 40% 90%, 45% 90%, 50% 89%, 55% 88%, 60% 86%, 65% 84%, 70% 81%, 75% 78%, 80% 75%, 85% 72%, 90% 70%, 95% 68%, 100% 65%, 100% 100%, 0% 100%);
+  z-index: 0;
+}
+
+
+/* --- RESPONSIVIDADE --- */
+@media (max-width: 900px) {
+  .rightPanel {
+    display: none; /* Esconde o painel direito em telas menores */
+  }
+  .leftPanel {
+    padding: 1rem;
+  }
+  .wave {
+    height: 20%;
+  }
+}

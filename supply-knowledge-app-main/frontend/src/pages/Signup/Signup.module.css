@@ -1,0 +1,7 @@
+/* Arquivo: src/pages/Signup/Signup.module.css */
+
+/* Importa todos os estilos do login para reutilização */
+@import "../Login/Login.module.css";
+
+/* Se precisar de algum ajuste específico para a tela de cadastro, adicione aqui.
+   Por enquanto, não é necessário. */
